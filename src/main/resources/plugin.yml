@@ -1,0 +1,5 @@
+name: DiscordWhitelist
+version: 1.0
+author: Wickn
+main: discordwhitelist.DiscordWhitelist
+api-version: 1.15

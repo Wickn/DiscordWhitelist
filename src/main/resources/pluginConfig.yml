@@ -1,0 +1,9 @@
+discordToken: ""
+discordAdmins:
+  - ""
+
+#discordAdmins is currently unused.
+#discordAdmins format:
+#discordAdmins:
+# - "(discordID of admin)"
+# - "(discordID of another admin)"

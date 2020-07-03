@@ -1,0 +1,17 @@
+usernameUnknownError: "An unknown error occurred. Please try again later."
+usernameInvalid: "The name you entered is not a valid Minecraft username."
+attemptingWhitelist: "Attempting to whitelist..."
+successfulWhitelist: "You have been whitelisted successfully! Happy crafting!"
+deniedAccessKickReason: "You are not whitelisted on the server."
+statusMessage: "Slide into my DMs with a quick 'hello' to get whitelisted!"
+onPingResponse: "Hello! Slide into my DMs with a quick 'hello' to get whitelisted on the Minecraft server!"
+
+# anything below this line is CUSTOM commands.
+# keys (left side of colon(:)) is what the user must say. must be in lowercase.
+# values (right side of colon(:)) is what the bot will respond with. CAN NOT BE EMPTY.
+# pre-made phrases have been made. these can be safely deleted or altered to your will.
+# use \n to create a new line. use \ in front of ", if you want them to show up in message.
+# remember to remind the user, that you get verified by typing their minecraft username inside quotation marks
+
+hello: "Hi! I'm [THIS SERVER]'s whitelist bot!\nThe rules of this server are as follows: [...]\nRespond with `I agree` if you agree with the above."
+i agree: "Great! In order to get whitelisted, write your Minecraft username inside quotation marks, like so:\n> \"MyUsername\""

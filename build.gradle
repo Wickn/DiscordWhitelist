@@ -1,0 +1,33 @@
+plugins {
+    id 'com.github.johnrengelman.shadow' version '5.2.0'
+    id 'java'
+}
+
+group 'wickn.plugin'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+
+    maven {
+        url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+
+        content {
+            includeGroup 'org.bukkit'
+            includeGroup 'org.spigotmc'
+        }
+    }
+    jcenter()
+
+    maven { url = 'https://oss.sonatype.org/content/repositories/snapshots' }
+    maven { url = 'https://oss.sonatype.org/content/repositories/central' }
+}
+
+dependencies {
+    compile group: 'commons-io', name: 'commons-io', version: '2.5'
+    compileOnly 'org.spigotmc:spigot-api:1.15.2-R0.1-SNAPSHOT'
+    compile 'com.googlecode.json-simple:json-simple:1.1.1'
+    compile ('net.dv8tion:JDA:4.1.1_144') {
+        exclude module: 'opus-java' //no vc
+    }
+}
